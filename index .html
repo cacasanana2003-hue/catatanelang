@@ -1,113 +1,52 @@
-﻿<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profil Edi Langkara</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Artikel — Catatan Elang</title>
   <style>
-    body {
-      font-family: "Merriweather", serif;
-      background-color: #fdfdfc;
-      color: #333;
-      margin: 0;
-      padding: 0;
-      line-height: 1.7;
-    }
-    .container {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 40px 20px;
-    }
-    .profile-header {
-      display: flex;
-      align-items: flex-start;
-      gap: 30px;
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 30px;
-      margin-bottom: 30px;
-    }
-    .profile-header img {
-      width: 220px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    }
-    .profile-header h1 {
-      font-size: 2.2rem;
-      margin: 0;
-      color: #2c3e50;
-    }
-    .profile-header h2 {
-      font-size: 1.2rem;
-      font-style: italic;
-      margin-top: 8px;
-      color: #555;
-    }
-    section {
-      margin-bottom: 30px;
-    }
-    section h3 {
-      font-size: 1.4rem;
-      border-left: 4px solid #2c3e50;
-      padding-left: 10px;
-      margin-bottom: 15px;
-      color: #2c3e50;
-    }
-    ul {
-      margin: 0;
-      padding-left: 20px;
-    }
-    ul li {
-      margin-bottom: 8px;
-    }
-    blockquote {
-      font-style: italic;
-      font-size: 1.1rem;
-      border-left: 4px solid #999;
-      padding-left: 15px;
-      margin: 20px 0;
-      color: #444;
-    }
+    body{font-family:system-ui,Arial;margin:0;padding:20px;line-height:1.6;color:#111}
+    header{margin-bottom:20px;border-bottom:2px solid #eee;padding-bottom:10px}
+    nav a{margin-right:12px;text-decoration:none;color:#0b5ed7;font-weight:600}
+    nav a:hover{text-decoration:underline}
+    h1{margin:0 0 8px 0}
+    .list{list-style:none;padding:0}
+    .list li{margin:14px 0;padding:10px;border:1px solid #eee;border-radius:8px}
+    .list a{font-size:18px;font-weight:600;color:#0b5ed7;text-decoration:none}
+    .list a:hover{text-decoration:underline}
+    .meta{color:#666;font-size:14px;margin-top:4px}
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="profile-header">
-      <img src="EDIII.jpg" alt="Foto Edi Langkara">
-      <div>
-        <h1>Drs. Edi Langkara, MH</h1>
-        <h2>Dikenal dengan sapaan <strong>Elang</strong></h2>
-        <p>Tokoh publik asal Halmahera Tengah, Maluku Utara. Pernah menjabat sebagai <strong>Bupati Halmahera Tengah (2017–2022)</strong>, kini beliau aktif sebagai penulis, pengamat sosial, dan pemerhati lingkungan. Dengan pengalaman panjang di pemerintahan dan organisasi, Edi Langkara menaruh perhatian besar pada isu <em>sosial, politik, pendidikan,</em> dan <em>keberlanjutan lingkungan</em>.</p>
-      </div>
-    </div>
+  <!-- Navigasi -->
+  <header>
+    <h1>Daftar Artikel</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/profil/">Profil</a>
+      <a href="/artikel/">Artikel</a>
+      <a href="/kegiatan/">Kegiatan</a>
+      <a href="/galeri/">Galeri</a>
+      <a href="/kontak/">Kontak</a>
+    </nav>
+  </header>
 
-    <section>
-      <h3>Karier & Jabatan</h3>
-      <ul>
-        <li>Bupati Halmahera Tengah (2017–2022)</li>
-        <li>Ketua Asprov PSSI Maluku Utara (terpilih aklamasi)</li>
-        <li>Pernah menjabat di struktur DPP Partai Golkar</li>
-        <li>Pernah mencalonkan diri di Pilkada Halmahera Tengah & terlibat dalam wacana Pilgub Maluku Utara</li>
-      </ul>
-    </section>
-
-    <section>
-      <h3>Fokus & Perhatian</h3>
-      <ul>
-        <li><strong>Pendidikan</strong> → Peningkatan infrastruktur sekolah dasar & akses pendidikan di daerah.</li>
-        <li><strong>Kesehatan</strong> → Pengembangan layanan kesehatan masyarakat di Halmahera Tengah.</li>
-        <li><strong>Sosial</strong> → Penyaluran bantuan sosial (bansos/sembako) bagi masyarakat terdampak inflasi & krisis.</li>
-        <li><strong>Lingkungan</strong> → Suara kritis terhadap tata kelola pertambangan, pembangunan berkelanjutan, & keberlanjutan ekosistem.</li>
-        <li><strong>Olahraga</strong> → Pembinaan sepak bola dan olahraga daerah melalui PSSI Maluku Utara.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h3>Visi Pemikiran</h3>
-      <blockquote>
-        “Sosial, politik, dan lingkungan adalah simpul kehidupan; tugas kita adalah menjaga simpul itu tetap kuat.”
-      </blockquote>
-      <p>Kalimat ini menjadi salah satu refleksi dari pandangan Edi Langkara: menjaga keseimbangan antara pembangunan, keadilan sosial, dan kelestarian lingkungan.</p>
-    </section>
-  </div>
+  <!-- Isi daftar artikel -->
+  <main>
+    <ul class="list">
+      <li>
+        <a href="tulisan1.html">Judul Artikel Pertama</a>
+        <div class="meta">📅 1 Oktober 2025 • 3 menit baca</div>
+        <p>Ringkasan singkat isi artikel pertama…</p>
+      </li>
+      <li>
+        <a href="tulisan2.html">Judul Artikel Kedua</a>
+        <div class="meta">📅 5 Oktober 2025 • 4 menit baca</div>
+        <p>Ringkasan singkat isi artikel kedua…</p>
+      </li>
+      <!-- Tambahkan artikel berikutnya di sini -->
+    </ul>
+  </main>
 </body>
 </html>
+
